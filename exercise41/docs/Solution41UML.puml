@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution24{
++readName(input: Scanner, name: name: ArrayList)
++outputName(name: ArrayList)
++main
+}
+@enduml
