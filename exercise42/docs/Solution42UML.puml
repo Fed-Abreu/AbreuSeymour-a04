@@ -2,8 +2,8 @@
 'https://plantuml.com/class-diagram
 
 class Solution42{
-+main
-+displayInput(file)
++main: "data/exercise42_input.txt"
++displayInput(String file)
 }
 
 
