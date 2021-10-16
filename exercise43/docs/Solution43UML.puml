@@ -2,12 +2,16 @@
 'https://plantuml.com/class-diagram
 
 class Solution43{
-+createWebsite()
-+createJAVAFolder()
-+createCSSFolder()
-+createHMTL()
+    +String siteName;
+    +String author;
+    +String path;
 
-+main()
+    +createWebsite();
+    +createJAVAFolder();
+    +createCSSFolder();
+    +createHMTL();
+
+    +main();
 
 }
 @enduml
