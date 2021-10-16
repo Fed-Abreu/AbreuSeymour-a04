@@ -6,4 +6,5 @@ class Solution24{
 +outputName(name: ArrayList)
 +main
 }
+
 @enduml

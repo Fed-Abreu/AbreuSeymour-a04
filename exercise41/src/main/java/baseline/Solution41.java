@@ -12,14 +12,16 @@ import java.util.Scanner;
  *  Copyright 2021 Federico Abreu Seymour
  */
 public class Solution41 {
-    public void readName(Scanner input, List<String>name){
+    public List<String> readName(Scanner input, List<String>name){
         //Read in the names with an ArrayList using a while loop and add to list
         while (input.hasNextLine()){
             name.add(input.nextLine());
         }
+
+        return name;
     }
 
-    public void outputName(List<String> name) throws IOException {
+    public List<String> outputName(List<String> name) throws IOException {
         //Output names to exercise41_output.txt
         try (FileWriter output = new FileWriter("data/exercise41_output.txt")) {
 
@@ -34,9 +36,10 @@ public class Solution41 {
             }
 
         }
+        return name;
     }
 
-        public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
         Solution41 sol = new Solution41();
         Scanner inputFile = new Scanner(new File("data/exercise41_input.txt"));
         ArrayList<String> name = new ArrayList<>();
