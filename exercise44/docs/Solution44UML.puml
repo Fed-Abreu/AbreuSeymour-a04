@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution44{
++fileInput();
++fileOutput();
+
++main();
+}
+
+@enduml
