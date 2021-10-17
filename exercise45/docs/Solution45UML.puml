@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution45{
+
++readFile()Exception;
++writeFile(String name, ArrayList)Exception;
+
++main();
+}
+
+@enduml
