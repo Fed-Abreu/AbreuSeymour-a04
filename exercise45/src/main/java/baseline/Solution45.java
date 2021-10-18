@@ -7,7 +7,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solutions
+ *  Copyright 2021 Federico Abreu Seymour
+ */
 public class Solution45 {
     public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);

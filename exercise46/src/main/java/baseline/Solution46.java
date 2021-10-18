@@ -3,7 +3,10 @@ package baseline;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
-
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solutions
+ *  Copyright 2021 Federico Abreu Seymour
+ */
 public class Solution46 {
     public static void main(String[] args) throws FileNotFoundException {
         ReadFile read = new ReadFile();
