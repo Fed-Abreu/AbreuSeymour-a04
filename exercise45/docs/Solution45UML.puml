@@ -2,11 +2,20 @@
 'https://plantuml.com/class-diagram
 
 class Solution45{
-
-+readFile()Exception;
-+writeFile(String name, ArrayList)Exception;
-
 +main();
 }
+class read{
+-ArrayList<String> list
+-Scanner input
++readFile()Exception
+}
+class write{
+-ArrayList<String> list
+-FileWriter writer
++writeFile(String name, List<String>list)Exception
 
+}
+
+Solution45-- read
+Solution45--write
 @enduml
